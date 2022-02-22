@@ -1,9 +1,12 @@
 {
-  "name": "{{project_name}}",
+  "name": "wdview-tpl",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/lijieniu/wdview-template/issues"
   },
-  "homepage": "https://github.com/lijieniu/wdview-template#readme"
+  "homepage": "https://github.com/lijieniu/wdview-template#readme",
+  "devDependencies": {
+    "@inagora/wd-view": "0.0.10",
+    "@vitejs/plugin-vue": "^2.2.2",
+    "typescript": "^4.5.5",
+    "vite": "^2.8.4",
+    "vue": "^3.2.29",
+    "vue-router": "^4.0.12",
+    "vue-tsc": "^0.31.4"
+  }
 }
